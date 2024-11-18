@@ -1,0 +1,54 @@
+
+
+/* Media Queries for mobile responsiveness  */
+@media  (max-width:786px){
+
+    .nav-section1 {
+        justify-content: center;
+    }
+
+    .nav-contacts {
+        display: none;
+    }
+
+    nav ul  {
+        display: none;
+     }
+
+     .menu-toggle {
+        display: flex;
+       }
+
+    nav ul.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        top: 128px;
+         gap:0;
+        padding: 0;
+        z-index: 1000;
+       }
+    
+
+    nav ul  li:hover {
+        border: none;
+        gap: none ;
+          
+    }
+    nav ul  li a:hover {
+        color: rgb(181, 139, 3);  
+    }
+       
+       
+       
+      
+
+}
+
+
+
