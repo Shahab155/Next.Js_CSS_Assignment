@@ -6,6 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faX } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
+// import panaLogo from '../public/panaLogo.png';
 
 export default function Navbar() {
 
@@ -13,15 +14,10 @@ export default function Navbar() {
  
     const [isNavVisible, setIsNavVisible] = useState<boolean>(false);
     
-
   const menuToggle = () => {
   console.log ( setIsNavVisible(!isNavVisible));
-
-    
   }
  
-
-  
   return (
     <>
      {/* --------------------------Header Section -------------------------- */}
@@ -69,8 +65,8 @@ export default function Navbar() {
               src={"/Images/panaLogo.png"}
               alt=""
               width={100}
-              height={50}
-            />
+              height={50}>
+              </Image>
           </h1>
           <div className='x-icon'> <FontAwesomeIcon icon ={faX}/></div>
             

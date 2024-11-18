@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import panaLogo from "public/Images/panaLogo.png";
-import Link from "next/link";
 import About from "./about/about"
 import Navbar from "./components/navbar/Navbar";
 import Advantages from "./advantages/Advantages";
