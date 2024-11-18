@@ -18,7 +18,8 @@ export default function Contact() {
     </div>
  </div>
  
- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14485.890027161739!2d67.04832!3d24.8135099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c5361ff85a5%3A0x2401821560d53462!2sPanacloud%20Pvt.%20Ltd.%20Pakistan!5e0!3m2!1sen!2s!4v1731407202449!5m2!1sen!2s" width="600" height="450" style={{border:0, allowfullscreen:"", loading:"lazy" ,referrerPolicy:'no-referrer-when-downgrade'}}></iframe>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14485.890027161739!2d67.04832!3d24.8135099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c5361ff85a5%3A0x2401821560d53462!2sPanacloud%20Pvt.%20Ltd.%20Pakistan!5e0!3m2!1sen!2s!4v1731407202449!5m2!1sen!2s" width="600" height="450" style={{border:0,       
+ allowFullScreen:"", loading:"lazy" ,referrerPolicy:'no-referrer-when-downgrade'}}></iframe>
  
 </section>
     </>
