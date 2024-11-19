@@ -62,10 +62,12 @@ export default function Navbar() {
           <h1 className="pana-logo">
             <Image
               src={"/Images/panaLogo.png"}
-              alt="pana Clod Logo"
-              width={100}
-              height={50} >
-              </Image>
+              alt="pana cloud logo"
+              width={0}
+              height={0}
+              layout='responsive'
+              />
+            
           </h1>
           <div className='x-icon'> <FontAwesomeIcon icon ={faX}/></div>
             

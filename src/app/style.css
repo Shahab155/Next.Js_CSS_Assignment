@@ -43,12 +43,46 @@
         color: rgb(181, 139, 3);  
     }
 
+    .nav h1 Image {
+        height: 40px;
+        width: 80px;
+    } 
+} 
+
+   
+@media (min-width:1200px){
+    .nav-section1 {
+      height: 80px;
+      align-items: center;
+    }
+    nav { 
+        height: 100px
+    }
+    
+      nav ul, .nav-icons, .nav-contacts {
+        font-size: 2rem;
+      }
+       .btn {
+         padding: 1rem;
+        font-size: 1.2rem;
+       }    
+        
+       .pana-logo {
+        
+        align-items: center;
+       }
+  
+       }
+
+
+
     /* -------------------------------------------- */
     /* Hero Section  */
 
 
 
-}
+
+
 
 
 
