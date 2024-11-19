@@ -23,15 +23,14 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        right: 0;
-        height: 100px;
+        height: 125vh;
         width: 100%;
         background-color: rgb(255, 255, 255);
         align-items: center;
         top: 128px;
          gap:0;
         padding: 0;
-        z-index: 1000;
+        /* z-index: 1000; */
        }
     
 
@@ -43,6 +42,12 @@
     nav ul  li a:hover {
         color: rgb(181, 139, 3);  
     }
+
+    /* -------------------------------------------- */
+    /* Hero Section  */
+
+
+
 }
 
 
