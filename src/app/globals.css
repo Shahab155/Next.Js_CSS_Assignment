@@ -197,7 +197,7 @@ nav ul li a {
 /* -------------------- Advantages page styling  ------------------------ */
 /* ---------------------------------------------------------------------- */
 .advantages-section {
-  padding: 25px;
+  margin: 80px 0 ; 
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -254,7 +254,8 @@ nav ul li a {
 /* --------------------------- about section styling------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------ */
 .about-section {
-  padding: 30px 30px;
+  margin: 80px 0;
+ 
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -290,7 +291,8 @@ nav ul li a {
 /* --------------------------------------------------------------------------- */
 
 .services-section {
-  margin: 30px;
+  margin: 80px 0;
+ 
 
   display: flex;
   flex-direction: column;
@@ -313,7 +315,7 @@ nav ul li a {
 
 /* this contains all the atiems  */
 .services-items {
-  margin-top: 90px;
+  margin: 80px 0 ;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -425,7 +427,8 @@ nav ul li a {
 /* ------------------------ Process Section styling -------------------------- */
 /* --------------------------------------------------------------------------------------- */
 .process-section {
-  margin-bottom: 30px;
+  margin: 80px 0;
+ 
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -478,10 +481,12 @@ nav ul li a {
 /* ------------------------------------------------------------------------------------------------- */
 
 .reviews-section {
+  margin: 80px 0;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 20px;
+  
   gap: 40px;
 }
 
@@ -539,7 +544,8 @@ nav ul li a {
 /* ------------------------------------ Our Skills -------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
 .skills-section {
-  margin: 60px 20px;
+  margin: 80px 0;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -625,7 +631,8 @@ input {
 /* -------------------------------------------------------------------------------- */
 
 .contact-section {
-  margin: 30px 0 0;
+  margin: 80px 0;
+
 
   padding: 20px;
   display: flex;
