@@ -28,13 +28,13 @@ export default function Footer() {
         <div className="footer-services"> 
             <ul>
               <li><h2 className='footer-services-head'>SERVICES</h2></li>
-              <li>Shahab</li>
-              <li>Shahab</li>
-              <li>Shahab</li>
-              <li>Shahab</li>
-              <li>Shahab</li>
-              <li>Shahab</li>
-              <li>Shahab</li>
+              <li><a href="">Web Design</a></li>
+              <li><a href="">Graphic Design   </a> </li>
+              <li><a href="">Marketing        </a>  </li>
+              <li><a href="">Logo Design      </a> </li>
+              <li><a href="">Branding         </a> </li>
+              <li><a href="">SEO              </a>  </li>
+              <li><a href="">Mobile App Design</a>  </li>
             </ul>
         </div>
         <div className="footer-line"></div>
@@ -42,13 +42,13 @@ export default function Footer() {
         <div className="footer-links"> 
           <ul>
             <li><h2 className='footer-links-head'>USEFUL LINKS</h2></li>
-            <li>Shahab</li>
-            <li>Shahab</li>
-            <li>Shahab</li>
-            <li>Shahab</li>
-            <li>Shahab</li>
-            <li>Shahab</li>
-            <li>Shahab</li>
+            <li><a href="#about">About      </a></li>
+            <li><a href="#advantages">Advantages </a></li>
+            <li><a href="#services">Services   </a></li>
+            <li><a href="#portfolio">Portfolio  </a></li>
+            <li><a href="#process">Process    </a></li>
+            <li><a href="#reviews">Reviews    </a></li>
+            <li><a href="#contacts">Contacts   </a></li>
           </ul>
       </div>
       <div className="footer-line"></div>

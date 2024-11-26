@@ -1,171 +1,232 @@
 /* Media Queries for mobile responsiveness  */
-@media  (max-width:768px){
+@media (max-width: 768px) {
+  .nav-section1 {
+    justify-content: center;
+  }
 
-    .nav-section1 {
-        justify-content: center;
-    }
+  .nav-contacts {
+    display: none;
+  }
 
-    .nav-contacts {
-        display: none;
-    }
+  nav ul {
+    display: none;
+  }
 
-    nav ul  {
-        display: none;
-     }
+  .menu-toggle {
+    display: flex;
+  }
 
-     .menu-toggle {
-        display: flex;
-       }
+  .show {
+    display: flex;
+    flex-direction: column;
 
-    .show {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        width: 100%;
-        background-color: rgb(236, 6, 6);
-        align-items: center;
-        position: absolute;
-        top: 0;
-         left: 0;
-         gap:0;
-        padding: 0;
-        
-       }
-    .menu-toggle {
-        z-index:10;
-    }
+    width: 100%;
+    background-color: #185519;
 
-    nav ul  li:hover {
-        border: none;
-        gap: none ;
-          
-    }
-    nav ul  li a:hover {
-        color: rgb(181, 139, 3);  
-    }
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    gap: 0;
+    padding: 0;
+  }
+  .menu-toggle {
+    z-index: 10;
+  }
 
-   /* --------------------------------------------------------------------------- */
-    /* ----------------------------  Hero Section --------------------  */
-   .hero-content {
+  nav ul li a {
+    color: whitesmoke;
+  }
+
+  nav ul li:hover {
+    border: none;
+    gap: none;
+  }
+  nav ul li a:hover {
+    color: rgb(181, 139, 3);
+  }
+
+  /* --------------------------------------------------------------------------- */
+  /* ----------------------------  Hero Section --------------------  */
+  .hero-content {
     width: 80%;
-   }
-   .hero-content h1 {
+  }
+  .hero-content h1 {
     font-size: 9vmin;
     margin-bottom: 5px;
-}
-.hero-para {
+  }
+  .hero-para {
     color: black;
     font-size: small;
-}
+  }
 
-/* ------------------------------------------------------------------------------------------ */
-/* -------------------------- Advantages Section ------------------ */
-/* -------------------{----------------------------------------------------------------------- */
-.advantages-section p {
+  /* ------------------------------------------------------------------------------------------ */
+  /* -------------------------- Advantages Section ------------------ */
+  /* -------------------{----------------------------------------------------------------------- */
+  .advantages-section p {
     width: 80%;
     font-size: smaller;
     margin-top: 10px;
-}
+  }
 
+  .advantages-items {
+    gap: 3rem;
+  }
 
-.advantages-items {
-    flex-wrap: wrap;
-}
-
-/* ---------------------------------------------------- */
-/* ------------------ About section ------------------------ */
-/* ----------------------------------------------------- */
-.about-section {
+  /* ---------------------------------------------------- */
+  /* ------------------ About section ------------------------ */
+  /* ----------------------------------------------------- */
+  .about-section {
     flex-direction: column;
     align-items: flex-start;
-    gap:20px
-}
+    gap: 20px;
+  }
 
-.about-left {
+  .about-left {
     width: 70%;
     align-items: center;
-}
+  }
 
-/* ---------------------------------------------------------------------- */
-/* ------------------ Services Section ------------------ */
-/* --------------------------------------------------------------------- */
-.services-items {
-    gap:40px;
+  /* ---------------------------------------------------------------------- */
+  /* ------------------ Services Section ------------------ */
+  /* --------------------------------------------------------------------- */
+  .services-items {
+    gap: 60px;
     flex-wrap: wrap;
-    margin-top: 50px;
-}
+    margin-top: 60px;
+  }
 
-.services-para
- {
+  .services-para {
     width: 80%;
- }
+  }
 
-/* ------------------------------------------------------------------------ */
-/* ---------------------------- Portfolio section ------------------- */
-/* ------------------------------------------------------------------- */
-.portfolio-para {
+  /* ------------------------------------------------------------------------ */
+  /* ---------------------------- Portfolio section ------------------- */
+  /* ------------------------------------------------------------------- */
+  .portfolio-para {
     width: 80%;
     margin-top: 10px;
     font-size: small;
-}
+  }
 
-.portfolio-list {
-   gap: 40px;
-   margin: 20px 0;
+  .portfolio-list {
+    gap: 40px;
+    margin: 20px 0;
+  }
 
-}
+  /* ----------------------------------------------------------------------------- */
+  /* --------------------------- Process Section ------------------------- */
+  /* ------------------------------------------------------------------------------ */
 
-/* ----------------------------------------------------------------------------- */
-/* --------------------------- Process Section ------------------------- */
-/* ------------------------------------------------------------------------------ */
-
-.upper-para {
+  .upper-para {
     width: 80%;
-}
+  }
 
+  /* ---------------------------------------------------------------------- */
+  /* ------------------------- Reviews Section ------------------- */
+  /* ----------------------------------------------------------------------- */
 
-/* ---------------------------------------------------------------------- */
-/* ------------------------- Reviews Section ------------------- */
-/* ----------------------------------------------------------------------- */
-.reviews-image-text {
+  .reviews-item-container {
     flex-direction: column;
-    align-items: flex-start;
-    /* justify-content: space-evenly; */
-    height: auto;
-    width: 100%;
-}
+    align-items: center;
+  }
 
+  .reviews-image-text {
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .reviews-para-upper {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .rev-para {
+    width: 100%;
+  }
+
+  /* --------------------------------------------------------------------- */
+  /* ------------------------- Skills section -------------- */
+  /* ---------------------------------------------------------------------- */
+  .skills-section p {
+    width: 90%;
+  }
+
+  .skills-items {
+    align-items: center;
+  }
+  /* -------------------------------------------------------------------------- */
+  /* --------------------- Project section ---------------- */
+  /* -------------------------------------------------------------------------- */
+
+  .form-container {
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 0 0 2px white;
+  }
+
+  .project-para {
+    width: 80%;
+  }
+
+  /* ----------------------------------------------------------------------------- */
+  /* --------------------------- Contact Section ------------------- */
+  /* ----------------------------------------------------------------------------- */
+
+  .contact-section p {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* -------------------------------------------------------------------------------------- */
+  /* ----------------------- Footer section ---------------- */
+  /* --------------------------------------------------------------------------------- */
+  .footer-items-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer-line {
+    height: 3px;
+    width: 220px;
+    background-color: rgba(150, 144, 144, 0.3);
+  }
 }
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------    Screen width --> 500px to 767 px -------------- */
 /* --------------------------------------------------------------------------- */
 
-@media (min-width: 319px ) and (max-width: 768px){
-    .about-left {
-        width: 100%;
-        text-align: center;
-    }
-    .about-right {
-        padding: 20px;
-        width: 100%;
-    }
-    .advantages-items p {
-    
-        width: 50%;
-    }
+@media (min-width: 319px) and (max-width: 768px) {
+  .about-left {
+    width: 100%;
+    text-align: center;
+  }
+  .about-right {
+    padding: 20px;
+    width: 100%;
+  }
 }
-
-
 
 /* ------------------------------------------------------------------------------------------ */
 /* ---------------------- Screen 769 t0 1260px -------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
-@media (min-width:769px ) and (max-width:1090px) {
-    .hero-content {
-        width: 70%;
-    }
-    
-    /* ------------------------------------------------------ */
- 
-}
+@media (min-width: 769px) and (max-width: 1090px) {
+  .hero-content {
+    width: 70%;
+  }
 
+  /* ------------------------------------------------------ */
+}

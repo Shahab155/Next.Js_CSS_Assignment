@@ -7,7 +7,7 @@ export default function Project() {
  
  <div className="project-heading"><h1>START YOUR NEW PROJECT</h1></div>  
 
- <div className="project-form">
+ <div className="form-container">
  <form>
 <input type="text" placeholder="YOUR NAME"   />
 <input type="email" placeholder="YOUR EMAIL" />
