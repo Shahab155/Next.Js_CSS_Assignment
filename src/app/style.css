@@ -50,6 +50,7 @@
   /* ----------------------------  Hero Section --------------------  */
   .hero-content {
     width: 80%;
+    margin-bottom: 240px;
   }
   .hero-content h1 {
     font-size: 9vmin;
@@ -72,6 +73,8 @@
   .advantages-items {
     gap: 3rem;
   }
+
+  
 
   /* ---------------------------------------------------- */
   /* ------------------ About section ------------------------ */
