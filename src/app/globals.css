@@ -254,14 +254,14 @@ nav ul li a {
 /* --------------------------- about section styling------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------ */
 .about-section {
-  margin: 80px 0;
+  margin: 80px 10px;
  
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
 }
 
 .about-left {
