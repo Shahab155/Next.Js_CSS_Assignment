@@ -12,7 +12,7 @@ export default function About() {
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
             quibusdam fuga asperiores laboriosam officiis voluptatum quod
-            voluptate eveniet vitae animi.
+            voluptate eveniet vitae animi. Lorem ipsum dolor sit, amet consectetur elit. Mollitia, qui.
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt
@@ -35,9 +35,10 @@ export default function About() {
         </div>
        
         <div className="about-right">
+          <div className="image-conatiner">
           <Image src="https://sitenivel.com.br/wp-content/uploads/2024/03/Artboard-1@2x2.png" alt="Art Board"
-          width={700} height={500} ></Image>
-         
+        width={650} height={500}></Image>
+         </div>
         </div>
       </section>
   )

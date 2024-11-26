@@ -14,7 +14,7 @@ export default function Navbar() {
     const [isNavVisible, setIsNavVisible] = useState<boolean>(false);
     
   const menuToggle = () => {
-  console.log ( setIsNavVisible(!isNavVisible));
+      setIsNavVisible(!isNavVisible);
   }
  
   return (
@@ -63,13 +63,13 @@ export default function Navbar() {
             <Image
               src={"/Images/panaLogo.png"}
               alt="pana cloud logo"
-              width={0}
-              height={0}
-              layout='responsive'
+              width={100}
+              height={50}
+              // layout='responsive'
               />
             
           </h1>
-          <div className='x-icon'> <FontAwesomeIcon icon ={faX}/></div>
+          <div className='x-icon'> </div>
             
           <ul className={isNavVisible ? "show" : "hide"}>
             <li>
@@ -121,7 +121,7 @@ export default function Navbar() {
             </li>
         
           </ul>
-        <div   onClick={menuToggle} className={'menu-toggle'}> <FontAwesomeIcon icon={faBars} /> 
+        <div   onClick={menuToggle} className={'menu-toggle'}>{isNavVisible ? <FontAwesomeIcon icon ={faX}/>: <FontAwesomeIcon icon={faBars} />} 
         
         </div>
       </nav>

@@ -7,10 +7,10 @@ export default function Process() {
    
 <section className="process-section" id='process'>
     {/* <!-- ------------------------------process-section upper part-----------------------   --> */}
-    <div className="process-header">                       
+                          
     <h1 className='process-heading'>OUR <span className="green-text">PROCESS</span></h1>
     <p className="upper-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. deserunt non modi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, fuga.</p>
-</div>
+
     
  {/* <!-------------------- item-1 ----------------------- --> */}
     {/* <!-- process items container  --> */}

@@ -21,17 +21,16 @@ export default function Home() {
      {/* ---------------------------------------------- */}
       {/* --------------Hero section */}
       <section className="hero-section" id="hero" >
-        <div className="container">
-          <div className="hero-img">
+        <div className="hero-content">
+          
             <h1 className="hero-heading">WE ARE EXPERTS</h1>
-            <p>
+            <p className="hero-para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-              labore eius &nbsp;&nbsp;notrfd dolor possimus ducimus sapiente
-              aliquam, sed sequi deserunt.
+              labore eius notrfd dolor possimus  voluptatem molestiae earum?
             </p>
-            <button className="hero-btn">READ MORE</button>
+            <button className="hero-btn">Read More</button>
            </div>
-        </div>
+       
       </section>
       {/* ----------------------------------------------------------------------------- */}
       {/* -------------------------- Advantages section  -------------------------------*/}

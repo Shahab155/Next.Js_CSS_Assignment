@@ -1,7 +1,5 @@
-
-
 /* Media Queries for mobile responsiveness  */
-@media  (max-width:786px){
+@media  (max-width:768px){
 
     .nav-section1 {
         justify-content: center;
@@ -19,20 +17,23 @@
         display: flex;
        }
 
-    nav ul.show {
+    .show {
         display: flex;
         flex-direction: column;
-        position: absolute;
         height: 100vh;
         width: 100%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(236, 6, 6);
         align-items: center;
-        top: 128px;
+        position: absolute;
+        top: 0;
+         left: 0;
          gap:0;
         padding: 0;
-        /* z-index: 1000; */
+        
        }
-    
+    .menu-toggle {
+        z-index:10;
+    }
 
     nav ul  li:hover {
         border: none;
@@ -43,46 +44,128 @@
         color: rgb(181, 139, 3);  
     }
 
-    .nav h1 Image {
-        height: 40px;
-        width: 80px;
-    } 
-} 
+   /* --------------------------------------------------------------------------- */
+    /* ----------------------------  Hero Section --------------------  */
+   .hero-content {
+    width: 80%;
+   }
+   .hero-content h1 {
+    font-size: 9vmin;
+    margin-bottom: 5px;
+}
+.hero-para {
+    color: black;
+    font-size: small;
+}
 
-   
-@media (min-width:1200px){
-    .nav-section1 {
-      height: 80px;
-      align-items: center;
+/* ------------------------------------------------------------------------------------------ */
+/* -------------------------- Advantages Section ------------------ */
+/* -------------------{----------------------------------------------------------------------- */
+.advantages-section p {
+    width: 80%;
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+
+.advantages-items {
+    flex-wrap: wrap;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------ About section ------------------------ */
+/* ----------------------------------------------------- */
+.about-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px
+}
+
+.about-left {
+    width: 70%;
+    align-items: center;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ------------------ Services Section ------------------ */
+/* --------------------------------------------------------------------- */
+.services-items {
+    gap:40px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.services-para
+ {
+    width: 80%;
+ }
+
+/* ------------------------------------------------------------------------ */
+/* ---------------------------- Portfolio section ------------------- */
+/* ------------------------------------------------------------------- */
+.portfolio-para {
+    width: 80%;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.portfolio-list {
+   gap: 40px;
+   margin: 20px 0;
+
+}
+
+/* ----------------------------------------------------------------------------- */
+/* --------------------------- Process Section ------------------------- */
+/* ------------------------------------------------------------------------------ */
+
+.upper-para {
+    width: 80%;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* ------------------------- Reviews Section ------------------- */
+/* ----------------------------------------------------------------------- */
+.reviews-image-text {
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+    height: auto;
+    width: 100%;
+}
+
+}
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------    Screen width --> 500px to 767 px -------------- */
+/* --------------------------------------------------------------------------- */
+
+@media (min-width: 319px ) and (max-width: 768px){
+    .about-left {
+        width: 100%;
+        text-align: center;
     }
-    nav { 
-        height: 100px
+    .about-right {
+        padding: 20px;
+        width: 100%;
+    }
+    .advantages-items p {
+    
+        width: 50%;
+    }
+}
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* ---------------------- Screen 769 t0 1260px -------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+@media (min-width:769px ) and (max-width:1090px) {
+    .hero-content {
+        width: 70%;
     }
     
-      nav ul, .nav-icons, .nav-contacts {
-        font-size: 2rem;
-      }
-       .btn {
-         padding: 1rem;
-        font-size: 1.2rem;
-       }    
-        
-       .pana-logo {
-        
-        align-items: center;
-       }
-  
-       }
-
-
-
-    /* -------------------------------------------- */
-    /* Hero Section  */
-
-
-
-
-
-
-
+    /* ------------------------------------------------------ */
+ 
+}
 

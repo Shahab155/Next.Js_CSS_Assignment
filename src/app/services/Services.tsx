@@ -14,7 +14,7 @@ export default function Services() {
 
           <p className="services-para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
-            explicabo quisquam nam voluptates.
+            explicabo quisquam nam voluptates. Lorem ipsum dolor sit.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export default function Services() {
             <i className="bi bi-star-fill"></i>
             </div>
             <div>
-              <h1>WEB DESIGN</h1>
+              <h3>WEB DESIGN</h3>
               <p className='serv-part2-para'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
                 tempora?
@@ -44,7 +44,7 @@ export default function Services() {
             <i className="bi bi-star-fill"></i>
             </div>
             <div>
-              <h1>GRAPHIC DESIGN</h1>
+              <h3>GRAPHIC DESIGN</h3>
               <p className='serv-part2-para'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
                 tempora?
@@ -62,7 +62,7 @@ export default function Services() {
             <i className="bi bi-star-fill"></i>
             </div>
             <div>
-              <h1>BRANDING </h1>
+              <h3>BRANDING </h3>
               <p className='serv-part2-para'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
                 tempora?
@@ -80,7 +80,7 @@ export default function Services() {
             <i className="bi bi-star-fill"></i>
             </div>
             <div>
-              <h1>MARKETING</h1>
+              <h3>MARKETING</h3>
               <p className='serv-part2-para'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
                 tempora?
