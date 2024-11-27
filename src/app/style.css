@@ -94,9 +94,9 @@
   /* ------------------ Services Section ------------------ */
   /* --------------------------------------------------------------------- */
   .services-items {
-    gap: 60px;
+    gap: 80px;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 70px;
   }
 
   .services-para {
@@ -123,6 +123,11 @@
 
   .upper-para {
     width: 80%;
+  }
+
+  .process-lower-part {
+    gap:50px;
+    margin-top: 50px;
   }
 
   /* ---------------------------------------------------------------------- */

@@ -197,7 +197,7 @@ nav ul li a {
 /* -------------------- Advantages page styling  ------------------------ */
 /* ---------------------------------------------------------------------- */
 .advantages-section {
-  margin: 80px 0 ; 
+  margin:40px 0 ; 
   padding: 20px;
 
   width: 100%;
@@ -257,7 +257,7 @@ nav ul li a {
 /* ------------------------------------------------------------------------------------------------ */
 .about-section {
 
-  margin: 80px 0;
+  margin:40px 0;
  padding: 20px ;
   width: 100%;
   display: flex;
@@ -294,24 +294,21 @@ nav ul li a {
 /* --------------------------------------------------------------------------- */
 
 .services-section {
-  margin: 80px 0;
- 
   padding: 20px;
-
-  display: flex;
+ display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
 
 .services-section h1 {
-  font-size: 8vmin;
+  font-size: 9vmin;
   text-align: center;
 }
 
 .services-para {
   width: 60%;
-  margin: 0 auto;
+  margin: 5px auto;
   text-align: center;
   font-size: smaller;
   color: grey;
@@ -319,7 +316,7 @@ nav ul li a {
 
 /* this contains all the atiems  */
 .services-items {
-  margin: 80px 0 ;
+  margin:40px 0 ;
   padding: 20px;
 
   width: 100%;
@@ -390,7 +387,7 @@ nav ul li a {
   align-items: center;
 }
 .portfolio-heading {
-  font-size: 8vmin;
+  font-size: 9vmin;
 }
 
 .portfolio-para {
@@ -433,7 +430,7 @@ nav ul li a {
 /* ------------------------ Process Section styling -------------------------- */
 /* --------------------------------------------------------------------------------------- */
 .process-section {
-  margin: 80px 0;
+  margin:40px 0;
  
   padding: 20px;
   display: flex;
@@ -442,7 +439,7 @@ nav ul li a {
   justify-content: space-between;
 }
 .process-heading {
-  font-size: 8vmin;
+  font-size: 9vmin;
 }
 
 .upper-para {
@@ -487,7 +484,7 @@ nav ul li a {
 /* ------------------------------------------------------------------------------------------------- */
 
 .reviews-section {
-  margin: 80px 0;
+  margin:40px 0;
   padding: 20px;
 
   display: flex;
@@ -541,8 +538,9 @@ nav ul li a {
 
 /* -------------------- Animation ----------------------- */
 .reviews-image-text:hover {
-  background-color: rgba(6, 154, 9);
-
+  /* background-color: rgba(6, 154, 9); */
+  background-color: royalblue;
+  
   color: whitesmoke;
   transform: scale(1.1);
 }
@@ -551,7 +549,7 @@ nav ul li a {
 /* ------------------------------------ Our Skills -------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
 .skills-section {
-  margin: 80px 0;
+  margin:40px 0;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -638,7 +636,7 @@ input {
 /* -------------------------------------------------------------------------------- */
 
 .contact-section {
-  margin: 80px 0;
+  margin:40px 0;
 
 
   padding: 20px;
