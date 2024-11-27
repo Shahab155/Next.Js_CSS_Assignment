@@ -1,18 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from "next/image"
-import  h1 from "@/public/Images/h1.png"
-import  h2 from "@/public/Images/h2.png"
-import  h3 from "@/public/Images/h3.png"
-import  h4 from "@/public/Images/h4.png"
-import  h5 from "@/public/Images/h5.png"
-import  h6 from "@/public/Images/h6.png"
-import  h7 from "@/public/Images/h7.png"
-import  h8 from "@/public/Images/h8.png"
-import  h9 from "@/public/Images/h9.png"
-import  h10 from "public/Images/h10.png"
-
-
 
 
 export default function Portfolio() {
@@ -64,16 +52,16 @@ export default function Portfolio() {
         </div>
         <div className="portfolio-images-container" id='portfolio'>
           <div className="portfolio-image">
-            <Image src={'/Images/h1.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h2.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h3.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h4.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h5.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h6.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h7.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h8.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h9.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
-          <div className="portfolio-image"> <Image src={'/Images/h10.png'} alt='Portfolio Image' width={220} height={170}></Image></div>
+            <Image src={'/Images/h1.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h2.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h3.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h4.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h5.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h6.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h7.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h8.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h9.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/Images/h10.png'} alt='Portfolio Image' width={220} height={170}/></div>
         </div>
       </section>
      </>
