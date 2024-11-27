@@ -1,6 +1,19 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from "next/image"
+import  h1 from "@/public/Images/h1.png"
+import  h2 from "@/public/Images/h2.png"
+import  h3 from "@/public/Images/h3.png"
+import  h4 from "@/public/Images/h4.png"
+import  h5 from "@/public/Images/h5.png"
+import  h6 from "@/public/Images/h6.png"
+import  h7 from "@/public/Images/h7.png"
+import  h8 from "@/public/Images/h8.png"
+import  h9 from "@/public/Images/h9.png"
+import  h10 from "public/Images/h10.png"
+
+
+
 
 export default function Portfolio() {
   return (
