@@ -35,7 +35,7 @@ export default function Reviews() {
             <div className="reviews-image"><Image src={'/Images/daniyal.jpeg'} alt='Daniyal Nagori' width={100} height={100}></Image></div>
             <div className="reviews-head-para">
                    <h2>Daniyal Nagori</h2>
-                   <p className="rev-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. dignissimos, consequatur quidem soluta corrupti eaque.</p>
+                   <p className="reviews-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. dignissimos, consequatur quidem soluta corrupti eaque.</p>
             </div>
         
   
