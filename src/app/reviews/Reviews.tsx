@@ -20,7 +20,7 @@ export default function Reviews() {
             <div className="reviews-image"><Image src={'/Images/ziaKhan.jpeg'} alt='Zia Khan' width={100} height={100}></Image></div>
             <div className="reviews-head-para">
                    <h2>Zia Khan</h2>
-                   <p className="rev-para">
+                   <p className="reviews-para">
                    Lorem ipsum dolor sit amet consectetur adipisicing elit. dignissimos, consequatur quidem soluta corrupti eaque.
                    </p>
 {/* <div className="line"></div> */}
@@ -51,7 +51,7 @@ export default function Reviews() {
             <div className="reviews-image"> <Image src={'/Images/ameen.jpg'} alt='Ameen Alam' width={100} height={100}></Image></div>
             <div className="reviews-head-para">
                    <h2>Ameen Alam</h2>
-                   <p className="rev-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. dignissimos, consequatur quidem soluta corrupti eaque.</p>
+                   <p className="reviews-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. dignissimos, consequatur quidem soluta corrupti eaque.</p>
             </div>
         {/* <div className="line"></div> */}
 
@@ -62,7 +62,7 @@ export default function Reviews() {
             <div className="reviews-image"><Image src={'/Images/hamzah.jpeg'} alt='Hamzah Syed' width={100} height={100}></Image></div>
             <div className="reviews-head-para">
                    <h2>Hamzah Syed</h2>
-                   <p className="rev-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. dignissimos, consequatur quidem soluta corrupti eaque.</p>
+                   <p className="reviews-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. dignissimos, consequatur quidem soluta corrupti eaque.</p>
             </div>
 
         {/* <div className="line"></div> */}

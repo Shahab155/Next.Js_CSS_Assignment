@@ -27,8 +27,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    gap: 0;
-    padding: 0;
+    gap: 30px;
+    padding-top:10px;
   }
   .menu-toggle {
     z-index: 10;
@@ -152,7 +152,7 @@
     margin: 10px 0;
   }
 
-  .rev-para {
+  .reviews-para {
     width: 100%;
   }
 

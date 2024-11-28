@@ -53,7 +53,7 @@ export default function Portfolio() {
         <div className="portfolio-images-container" id='portfolio'>
           <div className="portfolio-image">
             <Image src={'/Images/h1.png'} alt='Portfolio Image' width={220} height={170}/></div>
-          <div className="portfolio-image"> <Image src={'/Images/h2.png'} alt='Portfolio Image' width={220} height={170}/></div>
+          <div className="portfolio-image"> <Image src={'/assets/h2.png'} alt='Portfolio Image' width={220} height={170}/></div>
           <div className="portfolio-image"> <Image src={'/Images/h3.png'} alt='Portfolio Image' width={220} height={170}/></div>
           <div className="portfolio-image"> <Image src={'/Images/h4.png'} alt='Portfolio Image' width={220} height={170}/></div>
           <div className="portfolio-image"> <Image src={'/Images/h5.png'} alt='Portfolio Image' width={220} height={170}/></div>
